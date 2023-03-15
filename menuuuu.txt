@@ -1,0 +1,47 @@
+<div class="menu-container">
+  <h2>Menu de sushi</h2>
+  <ul class="menu">
+    <li>
+      <h3>Maki</h3>
+      <p>California roll</p>
+      <p>Avocat roll</p>
+      <p>Crevette tempura roll</p>
+    </li>
+    <li>
+      <h3>Nigiri</h3>
+      <p>Thon</p>
+      <p>Saumon</p>
+      <p>Crevette</p>
+    </li>
+    <li>
+      <h3>Sashimi</h3>
+      <p>Thon</p>
+      <p>Saumon</p>
+      <p>Daurade</p>
+    </li>
+  </ul>
+</div>
+.menu-container {
+  text-align: center;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.menu li h3 {
+  margin-top: 0;
+}
+
+.menu li p {
+  margin: 0;
